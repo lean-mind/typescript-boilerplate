@@ -5,6 +5,7 @@
 
 {
   "extends": [
+    "tslint-microsoft-contrib",
     "tslint-config-prettier"
   ],
   "rules": {
@@ -14,7 +15,6 @@
     "export-name": false,
     "promise-function-async": false,
     "no-void-expression": false,
-    "no-redundant-jsdoc": false,
     "prefer-type-cast": false,
     "typedef": [
       true,

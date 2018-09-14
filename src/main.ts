@@ -1,7 +1,14 @@
+/**
+ * Main Class
+ */
 export class Main {
-    public param: string;
+  public param: string;
 
-    main() {
-        console.log(`It works ${this.param}`);
-    }
+  constructor(param: string) {
+    this.param = param;
+  }
+
+  public getParam() {
+    return this.param
+  }
 }
