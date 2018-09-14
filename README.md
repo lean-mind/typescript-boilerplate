@@ -1,9 +1,10 @@
-# TypeScript Boilerplate
+# TypeScript Boilerplate for Katas
 
-Basic boilerplate project with TypeScript for katas
+You can use it for Coding-Dojos, Katas or **reference** to build a new project.
 
-## Sweeties
+This boilerplate include:
 
 * 💬 TypeScript 3
 * 📙 Babel 7
 * ✅ Jest 23
+* 💅 Prettier & TSLint
