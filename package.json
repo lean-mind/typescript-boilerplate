@@ -24,18 +24,14 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@babel/cli": "^7.4.3",
-    "@babel/core": "^7.4.3",
-    "@babel/plugin-proposal-class-properties": "^7.4.0",
-    "@babel/plugin-transform-modules-commonjs": "^7.4.3",
-    "@babel/preset-typescript": "^7.3.3",
+    "@swc/core": "^1.0.40",
     "@types/jest": "^24.0.11",
-    "babel-jest": "^24.7.1",
     "jest": "^24.7.1",
     "rimraf": "^2.6.3",
-    "tslint": "^5.15.0",
+    "swc-jest": "git+https://git@github.com/DanielRamosAcosta/swc-jest.git",
     "tslint-config-prettier": "^1.18.0",
     "tslint-microsoft-contrib": "^6.1.0",
+    "tslint": "^5.15.0",
     "typescript": "^3.4.3"
   },
   "jest": {
@@ -51,7 +47,7 @@
       "jsx"
     ],
     "transform": {
-      "^.+\\.(js|jsx|ts|tsx)$": "babel-jest"
+      "^.+\\.(js|jsx|ts|tsx)$": "swc-jest"
     },
     "testMatch": [
       "<rootDir>/__test__/**/*.(j|t)s?(x)",

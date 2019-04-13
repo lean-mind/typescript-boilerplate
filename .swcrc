@@ -1,0 +1,17 @@
+{
+  "jsc": {
+    "target": "es2018",
+    "parser": {
+      "syntax": "typescript",
+      "tsx": false,
+      "decorators": false
+    }
+  },
+  "module": {
+    "type": "commonjs",
+    "strict": false,
+    "strictMode": true,
+    "lazy": false,
+    "noInterop": false
+  }
+}
