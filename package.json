@@ -22,16 +22,17 @@
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch"
   },
-  "dependencies": {},
+  "dependencies": {
+    "swc-jest": "^1.0.0"
+  },
   "devDependencies": {
     "@swc/core": "^1.0.40",
     "@types/jest": "^24.0.11",
     "jest": "^24.7.1",
     "rimraf": "^2.6.3",
-    "swc-jest": "git+https://git@github.com/DanielRamosAcosta/swc-jest.git",
+    "tslint": "^5.15.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-microsoft-contrib": "^6.1.0",
-    "tslint": "^5.15.0",
     "typescript": "^3.4.3"
   },
   "jest": {
