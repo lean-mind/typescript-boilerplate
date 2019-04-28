@@ -3,6 +3,7 @@
     "tslint-microsoft-contrib",
     "tslint-config-prettier"
   ],
+  "defaultSeverity": "warning",
   "rules": {
     "interface-name": [true, "never-prefix"],
     "mocha-no-side-effect-code": false,
