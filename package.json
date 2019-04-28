@@ -24,19 +24,19 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@babel/cli": "^7.4.3",
-    "@babel/core": "^7.4.3",
-    "@babel/plugin-proposal-class-properties": "^7.4.0",
-    "@babel/plugin-transform-modules-commonjs": "^7.4.3",
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.4",
     "@babel/preset-typescript": "^7.3.3",
     "@types/jest": "^24.0.11",
     "babel-jest": "^24.7.1",
     "jest": "^24.7.1",
     "rimraf": "^2.6.3",
-    "tslint": "^5.15.0",
+    "tslint": "^5.16.0",
     "tslint-config-prettier": "^1.18.0",
-    "tslint-microsoft-contrib": "^6.1.0",
-    "typescript": "^3.4.3"
+    "tslint-microsoft-contrib": "^6.1.1",
+    "typescript": "^3.4.5"
   },
   "jest": {
     "testEnvironment": "node",
