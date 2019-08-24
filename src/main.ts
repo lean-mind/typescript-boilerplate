@@ -2,7 +2,7 @@
  * Main Class
  */
 export class Main {
-  public static COMMANDS: string = 'Hello World';
+  public static COMMANDS = 'Hello World';
 
   public param: string;
 
@@ -10,7 +10,7 @@ export class Main {
     this.param = param;
   }
 
-  public getParam() {
+  public getParam(): string {
     return this.param;
   }
 }
