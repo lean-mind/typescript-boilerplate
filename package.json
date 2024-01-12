@@ -10,7 +10,8 @@
   "contributors": [
     "Adrián Ferrera <adrian.ferrera@leanmind.es>",
     "Daniel Ramos <daniel.ramos@leanmind.es>",
-    "Michael Reyes <michael.reyes@leanmind.es>"
+    "Michael Reyes <michael.reyes@leanmind.es>",
+    "Airan Sanchez <airan@leanmind.es>"
   ],
   "license": "ISC",
   "scripts": {
@@ -25,11 +26,11 @@
     "test:coverage": "npm run test -- --coverage"
   },
   "devDependencies": {
-    "@types/node": "^20.8.9",
-    "@typescript-eslint/eslint-plugin": "^6.9.0",
-    "@typescript-eslint/parser": "^6.9.0",
-    "eslint": "^8.52.0",
-    "typescript": "^5.2.2",
+    "@types/node": "^20.11.0",
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
     "vitest": "^0.34.6"
   }
 }
