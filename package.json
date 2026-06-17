@@ -14,23 +14,28 @@
     "Airan Sanchez <airan@leanmind.es>"
   ],
   "license": "ISC",
+  "packageManager": "pnpm@11.7.0",
+  "engines": {
+    "pnpm": ">=11.7.0"
+  },
   "scripts": {
-    "prepare": "npm run build",
-    "prestart": "npm run build",
+    "prepare": "pnpm run build",
+    "prestart": "pnpm run build",
     "start": "node build/index.js",
-    "build": "npm run lint && tsc --noEmit",
-    "lint": "eslint . --ext .ts",
-    "lint:fix": "npm run lint -- --fix",
+    "build": "pnpm run lint && tsc --noEmit",
+    "lint": "biome lint .",
+    "lint:fix": "biome lint --write .",
+    "format": "biome format --write .",
+    "check": "biome check .",
     "test": "vitest run --reporter=verbose",
-    "test:watch": "npm run test -- --watchAll",
-    "test:coverage": "npm run test -- --coverage"
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest run --coverage"
   },
   "devDependencies": {
-    "@types/node": "^20.11.0",
-    "@typescript-eslint/eslint-plugin": "^6.18.1",
-    "@typescript-eslint/parser": "^6.18.1",
-    "eslint": "^8.56.0",
-    "typescript": "^5.3.3",
-    "vitest": "^0.34.6"
+    "@biomejs/biome": "2.5.0",
+    "@types/node": "25.9.3",
+    "@vitest/coverage-v8": "4.1.9",
+    "typescript": "6.0.3",
+    "vitest": "4.1.9"
   }
 }

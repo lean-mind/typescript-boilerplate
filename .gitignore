@@ -1,7 +1,7 @@
 # Logs
 logs
 *.log
-npm-debug.log*
+pnpm-debug.log*
 
 # Dependencies
 node_modules/
@@ -20,10 +20,13 @@ build/
 .idea/
 
 # Optional npm cache directory
-.npm
+.pnpm-store/
 
 # Optional eslint cache
 .eslintcache
 
 # Misc
 .DS_Store
+
+# SDD runtime artifacts
+.atl/

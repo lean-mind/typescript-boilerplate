@@ -1,17 +1,15 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "baseUrl": "src",
     "paths": {
-      "@core/*": ["core/*"]
+      "@core/*": ["./src/core/*"]
     },
     "useDefineForClassFields": true,
     "lib": ["dom", "es2016", "esnext"],
-    "module": "CommonJS",
-    "moduleResolution": "node",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "allowJs": false,
     "skipLibCheck": true,
-    "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
